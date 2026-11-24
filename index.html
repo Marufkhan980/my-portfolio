@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en" class="dark scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maruf Khan — MERN Stack Developer & Digital Marketer</title>
+    <meta
+      name="description"
+      content="Portfolio of Maruf Khan showcasing full-stack MERN projects, tech stack, verified certifications, contact details, and downloadable PDF resume."
+    />
+    <meta property="og:title" content="Maruf Khan — MERN Stack Developer & Digital Marketer" />
+    <meta
+      property="og:description"
+      content="Portfolio of Maruf Khan showcasing full-stack MERN projects, tech stack, verified certifications, contact details, and downloadable PDF resume."
+    />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Outfit:wght@500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      (function () {
+        try {
+          var saved = localStorage.getItem('maruf-portfolio-theme');
+          if (saved === 'light') {
+            document.documentElement.classList.remove('dark');
+          } else {
+            document.documentElement.classList.add('dark');
+          }
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body class="bg-[#F6FAF7] text-[#0C1F17] dark:bg-[#060E0A] dark:text-[#ECF7F1] antialiased selection:bg-emerald-500/25 selection:text-emerald-900 dark:selection:text-emerald-100">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
