@@ -55,7 +55,7 @@ export const PROFILE = {
   summary:
     'MERN stack developer crafting fast web apps with React, TypeScript, Node.js, and MongoDB—paired with certified digital marketing skills.',
   aboutMe:
-    'I am a Computer Science & Engineering student at Northern University Bangladesh focused on building responsive full-stack web applications using MongoDB, Express.js, React.js, Node.js, and TypeScript. Alongside software development, I bring certified expertise in Shopify, Meta Ads, Google Ads, and SEO to help digital products launch cleanly and convert effectively.',
+    'I turn ideas into digital experiences. With a passion for full-stack development and digital marketing, I build scalable web applications and create strategies that help brands grow online. From crafting seamless user experiences with the MERN stack to driving visibility through SEO, Meta Ads, Google Ads, and Shopify, I enjoy connecting technology with creativity to deliver meaningful results.',
 };
 
 export const STACK_ITEMS: StackItem[] = [
